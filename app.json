@@ -1,11 +1,13 @@
 {
   "expo": {
-    "name": "test-native",
-    "slug": "test-native",
+    "name": "System hospital",
+    "slug": "hospital",
+    "owner": "abd_hares",
+    "id": "11adefda-86f4-4000-97a5-149c5c8e1a68",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "testnative",
+    "icon": "./assets/images/Vector.png",
+    "scheme": "System hospital",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,10 +15,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/Vector.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.abd_hares.systemhospital"
     },
     "web": {
       "bundler": "metro",
@@ -29,14 +32,36 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff",
+          "enableFullScreenImage_legacy": true
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Poppins/Poppins-Black.ttf",
+            "./assets/fonts/Poppins/Poppins-Bold.ttf",
+            "./assets/fonts/Poppins/Poppins-ExtraBold.ttf",
+            "./assets/fonts/Poppins/Poppins-ExtraLight.ttf",
+            "./assets/fonts/Poppins/Poppins-Light.ttf",
+            "./assets/fonts/Poppins/Poppins-Medium.ttf",
+            "./assets/fonts/Poppins/Poppins-Regular.ttf",
+            "./assets/fonts/Poppins/Poppins-SemiBold.ttf",
+            "./assets/fonts/Poppins/Poppins-Thin.ttf"
+          ]
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "11adefda-86f4-4000-97a5-149c5c8e1a68"
+      }
     }
   }
 }
