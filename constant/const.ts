@@ -6,7 +6,7 @@ export const sections = [
         name: "قسم الطوارئ",
         price: "مجاناً",
         status: "مفتوح",
-        image: "@/assets/images/card.jpg",
+        image: "../assets/images/card.jpg",
         location: "الطابق الأرضي - الجناح الشرقي",
         paymentType: "حسب الحالة",
     },
@@ -15,7 +15,7 @@ export const sections = [
         name: "قسم الأطفال",
         price: "رسوم رمزية",
         status: "مغلق حالياً",
-        image: "@/assets/images/card.jpg",
+        image: "../assets/images/card.jpg",
         location: "الطابق الأول - الجناح الشمالي",
         paymentType: "شهري",
     },
@@ -151,13 +151,13 @@ export const hospitals = [
 ];
 
 export const images = [
-    { id: 1, source: require("@/assets/images/house-1.jpg") },
-    { id: 2, source: require("@/assets/images/house-2.jpg") },
-    { id: 3, source: require("@/assets/images/house-3.jpg") },
-    { id: 4, source: require("@/assets/images/house-4.jpg") },
-    { id: 5, source: require("@/assets/images/house-5.jpg") },
-    { id: 6, source: require("@/assets/images/house-6.jpg") },
-    { id: 7, source: require("@/assets/images/house-7.jpg") },
+    { id: 1, source: require("../assets/images/house-1.jpg") },
+    { id: 2, source: require("../assets/images/house-2.jpg") },
+    { id: 3, source: require("../assets/images/house-3.jpg") },
+    { id: 4, source: require("../assets/images/house-4.jpg") },
+    { id: 5, source: require("../assets/images/house-5.jpg") },
+    { id: 6, source: require("../assets/images/house-6.jpg") },
+    { id: 7, source: require("../assets/images/house-7.jpg") },
 ];
 
 export const hospitalSections: HospitalSection[] = [
