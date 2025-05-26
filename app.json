@@ -1,57 +1,59 @@
 {
-    "expo": {
-        "name": "System hospital",
-        "slug": "hospital",
-        "owner": "abd_hares",
-        "id": "11adefda-86f4-4000-97a5-149c5c8e1a68",
-        "version": "1.0.0",
-        "orientation": "portrait",
-        "icon": "./assets/images/Vector.png",
-        "scheme": "systemhospital",
-        "userInterfaceStyle": "automatic",
-        "newArchEnabled": true,
-        "ios": {
-            "supportsTablet": true
-        },
-        "android": {
-            "adaptiveIcon": {
-                "foregroundImage": "./assets/images/Vector.png",
-                "backgroundColor": "#ffffff"
-            },
-            "edgeToEdgeEnabled": true,
-            "package": "com.abd_hares.systemhospital"
-        },
-        "web": {
-            "bundler": "metro",
-            "output": "static",
-            "favicon": "./assets/images/favicon.png"
-        },
-        "plugins": [
-            "expo-router",
-            [
-                "expo-splash-screen",
-                {
-                    "image": "./assets/images/splash-icon.png",
-                    "resizeMode": "cover",
-                    "backgroundColor": "#ffffff",
-                    "enableFullScreenImage_legacy": true
-                }
-            ]
-        ],
-        "experiments": {
-            "typedRoutes": true
-        },
-        "extra": {
-            "router": {},
-            "eas": {
-                "projectId": "11adefda-86f4-4000-97a5-149c5c8e1a68"
-            }
-        },
-        "runtimeVersion": {
-            "policy": "appVersion"
-        },
-        "updates": {
-            "url": "https://u.expo.dev/11adefda-86f4-4000-97a5-149c5c8e1a68"
+  "expo": {
+    "name": "System hospital",
+    "slug": "hospital",
+    "owner": "abd_hares",
+    "id": "11adefda-86f4-4000-97a5-149c5c8e1a68",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Vector.png",
+    "scheme": "systemhospital",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abod.hospital",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Vector.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.abd_hares.systemhospital"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff",
+          "enableFullScreenImage_legacy": true
         }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "11adefda-86f4-4000-97a5-149c5c8e1a68"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/11adefda-86f4-4000-97a5-149c5c8e1a68"
     }
+  }
 }
